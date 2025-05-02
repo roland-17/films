@@ -1,3 +1,24 @@
 body{
     background-color: orange;
 }
+
+#defi1{
+   
+    animation: defi 5s infinite forwards forwards;
+}
+
+
+ 
+
+
+
+    #defi {
+        overflow-x: auto;
+        scrollbar-width: none;       /* Firefox */
+        -ms-overflow-style: none; 
+        white-space: nowrap;   /* IE/Edge */
+      }
+      
+      #defi::-webkit-scrollbar {
+        display: none;               /* Chrome, Safari, Opera */
+      }

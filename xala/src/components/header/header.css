@@ -46,6 +46,10 @@
         width: 100%;
         height: 60%;
     }
+    #logo{
+        width: 400%;
+        padding-right: 100PX;
+    }
 }
 
 @media screen and (min-width:600PX) and (max-width:1000PX){

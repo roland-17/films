@@ -2,7 +2,8 @@ import React from "react";
 import'/src/index.css';
 import'./header.css'
 import croix from '/src/assets/croix.png'
-import { useState } from 'react';
+
+
 function Header(){
   let trait=document.getElementById("trait");
   let ptexte=document.getElementById("ptexte");
@@ -20,7 +21,7 @@ function Header(){
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                   </svg>
                   
-                  <div className="bg-white w-35  absolute grid grid-cols-1 grid-rows-5 gap-1 rounded" name="ptexte" id="ptexte">
+                  <div className="bg-white w-35 z-1   absolute grid grid-cols-1 grid-rows-5 gap-1 rounded"  name="ptexte" id="ptexte">
                   <img src={croix} alt="" srcset="" className="w-7" id="clo" onClick={()=>{ptexte.style.visibility="hidden"; trait.style.display='block'}}/>
                     <a href="" className=" border-amber-500 border-1 flex items-center justify-center rounded" id="ho">home</a>
                     <a href="" className="border-amber-500 border-1 flex items-center justify-center rounded" id="fi">films</a>
@@ -29,7 +30,7 @@ function Header(){
                     <a href="" className="border-amber-500 border-1 flex items-center justify-center rounded" id="co">connexion</a>
                   </div>
                </div>
-               <div className="w-3/4 bg-amber-900">LOGO</div>
+               <div className="w-3/4 bg-amber-900 text-center" >LOGO</div>
              </span>
 
              <div className="grid grid-cols-3  " id="ele">
@@ -37,7 +38,7 @@ function Header(){
                  <li className="list-none flex items-center justify-center">
                     <a href="" className="text-amber-500 mt-6">HOME</a>
                  </li>
-                 <div className="bg-amber-500 h-1 mt-3"></div>
+                 <div className="bg-amber-500 h-1 mt-2"></div>
                </div>
                <div>
                  <li className="list-none flex items-center justify-center">
