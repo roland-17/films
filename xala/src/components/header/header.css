@@ -1,0 +1,79 @@
+*{
+    font-weight: 700;
+}
+
+#ptexte{
+    visibility: hidden;
+}
+
+#texte{
+    font-size: 0.9rem;
+}
+
+#menu{
+    display: none;
+}
+
+@media screen and (max-width:600PX){
+    #ele{
+        display: none;
+        
+    }
+    #menu{
+        display: block;
+    }
+
+    #ele2{
+        display: block;
+    }
+
+    #J{
+        visibility: hidden;
+    }
+    #v1{
+        visibility: hidden; 
+    }
+
+    #v2{
+        visibility: hidden; 
+    }
+
+    #v3{
+        visibility: hidden; 
+    }
+
+    #logo{
+        width: 100%;
+        height: 60%;
+    }
+}
+
+@media screen and (min-width:600PX) and (max-width:1000PX){
+#p2{
+    display: none;
+}
+
+#p1{
+    width: 150%;
+    height: 100%;
+    
+}
+#menu{
+    display: block;
+}
+
+#ho,#fi,#se{
+    display: none;
+}
+
+}
+
+@media screen and  (min-width:1001PX) and (max-width:1285PX){
+    #texte{
+        display: none;
+    }
+
+    #per{
+        border-radius: 50PX;
+    }
+}
